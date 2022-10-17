@@ -25,3 +25,5 @@ touch $newFile #create new file
 echo "newFile: $newFile" #for tests
 
 convert $name -resize $size $newFile #applying the convert command from imagemagick
+
+#to develop: give the user the possibility to change the file name
